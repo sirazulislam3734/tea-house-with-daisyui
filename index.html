@@ -19,7 +19,8 @@
       theme: {
         extend: {
           colors: {
-            clifford: '#da373d',
+            colors-mike: '#FF8938',
+            colors: '#F00',
           }
         }
       }
@@ -172,9 +173,55 @@
           </div>
      </section>
     </main>
-    <footer>
-
+    <footer class=" px-48 py-10 bg-base-200 text-base-content">
+      <div class="flex justify-between my-24">
+        <img src="images/cup.png" alt="">
+        <p>
+          <span>Ready to get strated?</span>
+          <button class="btn btn-error ml-16">Get Started</button>
+        </p>
+      </div>
+      <div class="footer">
+        <nav>
+          <h6 class="footer-title">Services</h6> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Company</h6> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Legal</h6> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav> 
+        <form>
+          <h6 class="footer-title">Newsletter</h6> 
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label> 
+            <div class="join">
+              <input type="text" placeholder="username@site.com" class=" py-6 bg-transparent border-b-2 border-black outline-none" /> 
+              <button class="btn btn-primary rounded-full">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="mt-14 text-center">
+        <aside>
+          <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+        </aside>
+      </div>
     </footer>
-    
 </body>
 </html>
